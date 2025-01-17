@@ -18,13 +18,16 @@ In this practice you will re-create the following portfolio.
 
 Here you will clone the repository, and a personal branch. You will publish your work on your peronal branch.
 
-Open your terminal and type:
-`cd`
-`mkdir practices/personal-portfolio`
-`cd practices/personal-portfolio`
-`git clone git@github.com:onja-org/wave_2_projects.git`
-`git checkout -b <your-name>-personal-portfolio-main`
-`code .`
+Open your terminal and type:  
+>  `cd`  
+>  `mkdir -p practices/html/personal-portfolio`  
+>  `cd practices/html/personal-portfolio`  
+>  `git clone https://github.com/onja-org/w2_html_personalPortfolio.git`  
+>  `git checkout -b <your-name>-personal-portfolio-main` (⚠️)  
+>  `code .`
+
+**⚠️ ABOUT `git checkout -b <your-name>-personal-portfolio-main`:**  
+you need to replace `<your-name>` with your real name. For example if your name is David Holmes, you need to run `git checkout -b david_holmes-personal-portfolio-main`
 
 ### 1. Lets build the portfolio
 
@@ -246,23 +249,29 @@ Now we have built the website like the images. Feel free to play around and cust
 
 ### 2. Publish the portfolio
 
-Open the integrated terminal in vs code:
-`cd practices/personal-portfolio`
-`git add .`
-`git commit -m "portfolio initial version"`
-`git push --set-upstream origin <your-name>-personal-portfolio-main`
+Open the integrated terminal in vs code:  
+>  `cd`  
+>  `cd practices/html/personal-portfolio`  
+>  `git add .`  
+>  `git commit -m "portfolio initial version"`  
+>  `git push --set-upstream origin <your-name>-personal-portfolio-main` (⚠️)  
+
+**⚠️ Don't forget to replace:** `<your-name>`
 
 ### 3. Add an easter egg branch and merge it to your main
 
-Open the integrated terminal in vs code:
-`cd practices/personal-portfolio`
-`git checkout -b <your-name>-personal-portfolio-egg`
-`touch "my favorite music is <your-favorite-music>" > <my-name>-egg.txt`
-`git commit -m "my easter egg"`
-`git push --set-upstream origin <your-name>-personal-portfolio-egg`
-`git checkout <your-name>-personal-portfolio-main`
-`git merge <your-name>-personal-portfolio-egg`
-`git push origin`
+Open the integrated terminal in vs code:  
+>  `cd`  
+>  `cd practices/html/personal-portfolio`  
+>  `git checkout -b <your-name>-personal-portfolio-egg` 
+>  `touch "my favorite music is <your-favorite-music>" > <your-name>-egg.txt` (⚠️)  
+>  `git commit -m "my easter egg"`  
+>  `git push --set-upstream origin <your-name>-personal-portfolio-egg` (⚠️)  
+>  `git checkout <your-name>-personal-portfolio-main` (⚠️)  
+>  `git merge <your-name>-personal-portfolio-egg` (⚠️)  
+>  `git push origin`  
+
+**⚠️ Don't forget to replace:** `<your-name>` and  `<your-favorite-music>`
 
 
 
@@ -271,10 +280,14 @@ Open the integrated terminal in vs code:
 The goal here is to see what other students have pushed.
 Find their easter eggs.
 
-Open the integrated terminal in vs code:
-`cd practices/personal-portfolio`
-`git branch -a` and find the branches other students created
-`git checkout <others-branches>`
+Open the integrated terminal in vs code:  
+> `cd practices/personal-portfolio`  
+> `git branch -a` and find the branches other students created  
+> `git checkout <others-branches>` (⚠️)  
+
+**⚠️ Don't forget to replace:** `<others-branches>` with the real name of other students branch
 and open their easter egg to see the content.
 
+
+This is the end of the practice,
 Hope you had fun
