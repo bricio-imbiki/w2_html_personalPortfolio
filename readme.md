@@ -16,7 +16,7 @@ In this practice you will re-create the following portfolio.
 
 ### 0. Clone the public repository
 
-Here you will clone the repository, and a personal branch. You will publish your work on your peronal branch.
+Here you will clone the repository, and create a personal branch. Then, you will publish your work on your peronal branch.
 
 Open your terminal and type:  
 >  `cd`  
