@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "0.0.1",
+  "description": "Responsive Web Design project for freeCodeCamp",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "./node_modules/.bin/mocha test/test.mjs",
+    "submit": "chmod +x ./test/submit.sh && ./test/submit.sh"
+  },
+  "dependencies": {
+    "chai": "^5.1.2",
+    "dotenv": "16.0.0",
+    "express": "^4.21.2",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "mocha": "^11.0.1"
+  }
+}
